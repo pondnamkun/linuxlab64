@@ -25,7 +25,7 @@ SECRET_KEY = '&tft%5mrh$gr5@7i%^3n#5@wdd@1^m8znfo&q!hjs%4^4xodaz'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['Tanapan.pythonanywhere.com']
+ALLOWED_HOSTS = ['Tanapan.pythonanywhere.com','127.0.0.1','localhost']
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'agprice',
 ]
 
 MIDDLEWARE = [
